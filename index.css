@@ -1,0 +1,134 @@
+body{
+    background-image: url(po.jfif);
+    /* background-color: rgb(39, 126, 197); */
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+  
+    
+}
+
+h1 {
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: ghostwhite;
+    /* color: rgb(155, 7, 7); */
+    /* padding-left:300px ; */
+   display:flex;
+   align-items: center;
+   justify-content:center;
+   margin-top: 20px;
+   font-size: 5em;
+}
+
+span{
+    display:grid;
+    grid-template-columns:15% 70% 15%;
+  
+}
+
+ p{
+   font-weight:600;
+   font-size: 1.5em;
+   color: whitesmoke;
+    text-align: center; 
+   
+}
+
+.butt {
+    padding-top: 50px;
+    display:flex;
+    align-items: center;
+    justify-content:center;
+    font-size: 1.7em;
+}
+.butt button {
+    font-size: .66em;
+    font-weight: bold;
+    transition:0.4s;
+    background:none;
+    border : 2px solid;
+    border-radius: 10px;
+    color:#000000;
+    padding:1em 2em;
+    margin:0px 15px;
+}
+
+.butt a  button {
+    text-decoration:none;
+    color:whitesmoke;
+}
+
+
+footer {
+   
+    font-size: 1.7em;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 173px;
+}
+
+footer ul {
+    display: flex;
+    margin-left: -40px;
+    margin-top: -10px;
+}
+
+footer ul li {
+    list-style: none;
+    margin: 0px 10px;
+}
+
+footer h4 {
+    /* background: rgb(77, 77, 80); */
+    font-weight: bold;
+    font-size: 15px;
+    /* color: beige; */
+    color: whitesmoke;
+    font-family: 'IBM Plex Sans', sans-serif;
+    margin-top: 20px;
+}
+
+footer ul li a{
+    color: royalblue;
+}
+@media  (max-width:400px)  {
+    body{
+        background-image: url(po.jfif);
+        /* background-color: rgb(39, 126, 197); */
+        background-repeat: no-repeat;
+        background-size:cover;
+        background-position: center center;
+        background-attachment: fixed;
+        margin: 0;
+        padding: 0;
+      
+    }
+}
+
+
+@media (max-width:400px) {
+    h1{
+        font-size: 2em;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: bold;
+    }
+}
+@media (min-width:400px) and (max-width:950px)  {
+    body{
+        background-image: url(po.jfif);
+        /* background-color: rgb(39, 126, 197); */
+        background-repeat: no-repeat;
+        background-size:cover;
+        background-position: center center;
+        background-attachment: fixed;
+        margin: 0;
+        padding: 0;
+      
+    }
+}
